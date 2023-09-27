@@ -9,6 +9,10 @@ function App() {
     console.log("State güncellendi.")
   });
 
+  useEffect(() => {
+    console.log("Component mount edildi.")
+  })
+
   return (
     <div className="App">
       
