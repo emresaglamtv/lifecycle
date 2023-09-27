@@ -10,8 +10,8 @@ function App() {
   });
 
   useEffect(() => {
-    console.log("Component mount edildi.")
-  })
+    console.log("Component mount edildi.");
+  }, []);
 
   return (
     <div className="App">
